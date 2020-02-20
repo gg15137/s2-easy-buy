@@ -21,7 +21,7 @@ public class HomeServlet extends HttpServlet {
         //存储数据
         request.setAttribute("categories",categories);
         //携带数据跳转到home.jsp，传递数据
-        request.getRequestDispatcher("/frot/home.jsp").forward(request,response);
+        request.getRequestDispatcher("/frot/Index.jsp").forward(request,response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
